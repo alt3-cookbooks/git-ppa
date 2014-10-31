@@ -4,13 +4,15 @@
 
 Installs Git 2.x using [Launchpad stable PPA](https://launchpad.net/~git-core/+archive/ubuntu/ppa).
 
-# Supported platforms
+# Supported Platforms
+
+This cookbook is test-kitchen tested against the following platforms:
 
   - ubuntu-14.04
 
 # Depends
 
-- Opscode [apt-cookbook](https://github.com/opscode-cookbooks/apt)
+- Opscode [apt](https://github.com/opscode-cookbooks/apt) LWRP Cookbook
 
 # Recipes
 
