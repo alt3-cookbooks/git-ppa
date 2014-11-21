@@ -1,0 +1,9 @@
+DEPENDENCIES
+  git-ppa
+    path: .
+    metadata: true
+
+GRAPH
+  apt (2.6.0)
+  git-ppa (1.0.0)
+    apt (>= 0.0.0)
